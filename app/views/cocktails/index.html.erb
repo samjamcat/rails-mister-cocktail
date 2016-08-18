@@ -11,8 +11,8 @@
         <p>***</p>
 
 
-      <%= link_to "Edit", edit_cocktail_path(cocktail), class: "btn btn-primary" %>
-      <%= link_to "Read more", cocktail_path(cocktail), class: "btn btn-primary"  %>
+      <%= link_to "Edit", edit_cocktail_path(:name), class: "btn btn-primary" %>
+      <%= link_to "Read more", cocktail_path(@cocktail), class: "btn btn-primary"  %>
 
       <% end %>
     </div>
