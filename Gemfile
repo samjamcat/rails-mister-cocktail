@@ -34,6 +34,7 @@ gem 'turbolinks', '~> 5'
 # ADDITIONS for images
 gem 'attachinary'
 gem 'figaro'
+gem 'cloudinary'
 
 
 
