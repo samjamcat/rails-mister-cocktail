@@ -29,7 +29,13 @@ gem 'turbolinks', '~> 5'
 
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
-#
+
+
+# ADDITIONS for images
+gem 'attachinary'
+gem 'figaro'
+
+
 
 
 group :development, :test do
